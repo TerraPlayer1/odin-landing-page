@@ -4,7 +4,7 @@ body {
   flex-direction: column;
   margin: 0px;
 }
-
+/*Header style*/
 a{
   padding-left: 16px;
   text-decoration: none;
@@ -17,11 +17,12 @@ a{
   justify-content: space-between;
   align-items: center;
   background-color: #1F2937;
-  padding: 10px 120px;
+  padding: 18px 210px;
 }
 
 .header-logo {
   font-size: 24px;
+  font-weight: bold;
   color: #F9FAF8;
 }
 
@@ -29,3 +30,49 @@ a{
   display: flex;
 }
 
+/*Hero style*/
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 210px;
+  background-color: #1F2937;
+  gap: 5%;
+}
+
+.hero img {
+  height: 240px;
+  flex-basis: 50%;
+}
+
+.hero-text{
+  flex-basis: 45%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0;
+}
+
+/*Button style*/
+
+button {
+  background-color: #3882F6;
+  border-color: #3882F6;
+  color: #F9FAF8;
+  border-style: none;
+  border-radius: 8px;
+  padding: 5px 34px;
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
