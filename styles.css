@@ -76,3 +76,40 @@ button {
   font-size: 18px;
   font-weight: bold;
 }
+
+/*Information style*/
+
+h2 {
+  margin: 25px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px 210px 100px;
+}
+
+.info p {
+  font-size: 18px;
+  color: rgb(63, 63, 63);
+  width: 160px;
+}
+
+.info img {
+  width: 160px;
+  height: 160px;
+}
+
+.info-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.text-image-pair {
+}
