@@ -113,3 +113,26 @@ button {
   align-items: center;
   gap: 40px;
 }
+
+/*Quote style*/
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 100px 314px;
+}
+
+.quote-text {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  padding-left: 20px;
+  margin: 60px 0px 0px 0px;
+}
+
+.quote-author{
+  font-weight: 500;
+  text-align: end;
+  margin: 5px;
+}
+
