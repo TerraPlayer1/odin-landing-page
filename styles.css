@@ -118,7 +118,7 @@ button {
 
 .quote {
   background-color: #E5E7EB;
-  padding: 100px 314px;
+  padding: 70px 314px;
 }
 
 .quote-text {
@@ -127,7 +127,7 @@ button {
   font-weight: 200;
   font-style: italic;
   padding-left: 20px;
-  margin: 60px 0px 0px 0px;
+  margin: 40px 0px 0px 0px;
 }
 
 .quote-author{
