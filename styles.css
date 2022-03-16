@@ -136,3 +136,42 @@ button {
   margin: 5px;
 }
 
+/*Call to action style*/
+
+.cta p {
+  margin: 0;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 210px;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882F6;
+  padding: 40px 100px;
+  border-radius: 6px;
+  width: 100vw;
+  gap: 5vw;
+}
+
+.cta-title {
+  color:#F9FAF8;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.cta-text {
+  color: #E5E7EB;
+  font-size: 16px;
+}
+
+.cta button{
+  border-color: #F9FAF8;
+  border-width: 2px;
+  border-style: solid;
+}
